@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+
+.page {
+    display: grid !important;
+    grid-template-rows: auto 1fr auto !important;
+    min-height: 100vh !important;
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.error {
+    color: #D8000C;
+    background-color: #FFBABA;
+}
+
+div {
+    display: inline-block;
+}
+
+input {
+    margin: 10px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+#table {
+    display: block;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+p {
+    color: #04AA6D;
+    text-align: center;
+    font-size: 24px;
+}
+
+.topnav {
+    overflow: hidden;
+    margin: auto;
+}
+
+.topnav a {
+    float: left;
+    color: #c14e4e;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.console-container {
+    font-family: Khula;
+    font-size: 4em;
+    text-align: center;
+    height: 200px;
+    width: 600px;
+    color: white;
+    margin: auto;
+}
